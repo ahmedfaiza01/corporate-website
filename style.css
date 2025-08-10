@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #004080;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header .logo span {
+    color: #00bfff;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+nav a.active, nav a:hover {
+    border-bottom: 2px solid #00bfff;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://via.placeholder.com/1500x600') center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 48px;
+}
+.btn {
+    display: inline-block;
+    background: #00bfff;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features, .services, .about-content, .contact-form {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+}
+.feature, .service-card {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.page-header {
+    text-align: center;
+    background: #e0f0ff;
+    padding: 50px 20px;
+}
+
+.team {
+    display: flex;
+    gap: 20px;
+}
+.team-member {
+    flex: 1;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer .socials a {
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 10px;
+    background: #00bfff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
